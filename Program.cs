@@ -20,8 +20,6 @@ namespace teamMaker
             int numPlayers = Convert.ToInt32(Console.ReadLine());
             
 
-
-            //later need size for player obj
             playerControl playerObj = new playerControl(numPlayers);
             menu menuObj = new menu();
 
